@@ -1,57 +1,39 @@
 TaskFlow — Kanban Project Management App
 
-A full-featured project management application built with React and Vite. Manage tasks across multiple boards with drag-and-drop, activity tracking, and a clean dashboard — all with localStorage persistence.
+A fully functional project management app built with React. Designed to help individuals and teams organize tasks across multiple boards with drag-and-drop, activity tracking, and real-time analytics.
 
-🔗 Live Demo: task-flow-nine-pink.vercel.app
+Live Demo: https://task-flow-nine-pink.vercel.app/
 
 Features
-Multi-Board Workspace — Organize boards by category (Personal / Professional)
-Kanban Board — Drag & drop cards across To Do, In Progress, In Review, and Done columns
-Activity Log — Real-time log of every action (move, add, edit, delete) with unread badge
-Dashboard — Overview of all tasks with charts and board progress
+Dashboard — Task overview, completion stats, board progress bars, status charts
+Kanban Board — Drag & drop cards across To Do, In Progress, In Review, and Done
+Activity Log — Tracks every move, add, edit, and delete with unread badge notification
 Calendar — View tasks by due date across all boards
-Team Management — Add team members and track their assigned tasks
-Reports — Analytics with bar charts and priority breakdown
-Settings — Profile management and notification preferences
-localStorage Persistence — All data saved locally, survives page refresh
-Mobile Responsive — Hamburger sidebar, responsive grids, mobile-friendly modals
+Team — Add members, assign tasks, track individual workload
+Reports — Bar charts, priority breakdown pie chart, board performance analytics
+Settings — Profile management, notification toggles, clear completed tasks
+Persistent Storage — All data saves to localStorage, survives page refresh
+Mobile Responsive — Drawer sidebar, responsive grids, mobile-friendly modals
 Tech Stack
-React 18 — UI library
-Vite — Build tool
-Recharts — Charts and data visualization
-Lucide React — Icons
-localStorage — Client-side data persistence
+React 18 + Vite
+Recharts (data visualization)
+Lucide React (icons)
+LocalStorage (client-side persistence)
+Pure CSS-in-JS (no external UI library)
 Getting Started
 bash
 # Clone the repo
 git clone https://github.com/mubbshraakram/TaskFlow.git
-cd TaskFlow
 
 # Install dependencies
+cd TaskFlow
 npm install
 
 # Run locally
 npm run dev
+Screenshots
+<img width="960" height="540" alt="2026-08-25 (2)" src="https://github.com/user-attachments/assets/93049e9a-60a4-425f-9fd2-df6560b2500b" />
 
-Open http://localhost:5173 in your browser.
-
-Build for Production
-bash
-npm run build
-Project Structure
-taskflow/
-├── src/
-│   ├── App.jsx        # All components in one file
-│   └── main.jsx       # Entry point
-├── index.html
-├── vite.config.js
-└── package.json
-Deployed On
-Frontend: Vercel
 Author
 
-Mubbshra Akram
-
-GitHub: @mubbshraakram
-LinkedIn: Mubbshra Akram
-Fiverr: Available for freelance React projects
+Mubbshra Akram — LinkedIn · GitHub
